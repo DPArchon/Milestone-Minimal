@@ -1,0 +1,168 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Libre Baskerville Bold', 'Open Sans Regular', 'Open Sans Bold', sans-serif;
+    color: #313131;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 800px;
+    background-color: #ffffff;
+}
+header h1 {
+    font-family: 'Libre Baskerville Bold', sans-serif;
+    font-size: 64pt;
+    color: #313131;
+    margin-left: 200px;
+}
+header p {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 48pt;
+    margin-left: 200px;
+}
+header span {
+    color: #ff654a;
+}
+nav {
+    float: right;
+    padding-top: 80px;
+    margin-bottom: 100px
+
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 24pt;
+    color: #313131;
+    padding-left: 80px;
+    word-spacing: 25px;
+}
+
+/****** ABOUT ******/
+
+#about {
+    height: 1050px;
+    padding: 80px 0;
+    background-color: #ff654a;
+}
+#about h2{
+    font-family: 'Libre Baskerville Bold', serif;
+    font-size: 36pt;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#about .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px solid #ffffff;
+    
+}
+#about h3 {
+    color: #ffffff;
+    font-family: 'Open Sans Bold', serif;
+    font-size: 24pt;
+    text-align: center;
+
+}
+
+#about p {
+    color: #ffffff;
+    font-family: 'Open Sans Regular', serif;
+    font-size: 24pt;
+    text-align: center;
+}
+
+/****** PORTFOLIO ******/
+#portfolio {
+    height: 850px;
+}
+
+#portfolio h2 {
+    font-family: 'Libre Baskerville Bold', sans-serif;
+    font-size: 36pt;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#portfolio h3 {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    padding-right: 40px;
+}
+#portfolio p {
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    padding-right: 40px;
+}
+#portfolio img {
+    width: 350px;
+    height: 223px;
+}
+/****** CONTACT ******/
+
+#contact {
+    height: 650px;
+    background-color: #ff654a;
+}
+
+#contact h2 {
+    font-family: 'Libre Baskerville Bold', sans-serif;
+    color: #ffffff;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+#contact h3 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 24pt;
+}
+
+#contact ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+#contact p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 24pt;
+}
+
+#contact .copy {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 18pt;
+    margin-top: 125px;
+}
